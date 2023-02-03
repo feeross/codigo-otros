@@ -1,3 +1,5 @@
+//Codigo que hace una solicitud api-fetch para leer los datos
+//e insertar los datos de nombre, blog y localizacion en el body del html
 const baseEndpoint = 'https://api.github.com';
 const usersEndpoint = `${baseEndpoint}/users`;
 const $n = document.querySelector('name'); //falta insertar la informacion en el html
